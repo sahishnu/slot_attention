@@ -12,7 +12,7 @@ class SlotAttentionParams:
     resolution: Tuple[int, int] = (128, 128)
     num_slots: int = 7
     num_iterations: int = 3
-    data_root: str = "/data/Dataset_Student"
+    data_root: str = "/data/dataset"
     gpus: int = 1
     max_epochs: int = 100
     num_sanity_val_steps: int = 1
